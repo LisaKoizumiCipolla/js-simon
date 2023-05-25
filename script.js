@@ -21,14 +21,15 @@ console.log(now);
 //time span between now and ending
 let totalTime = endOfTime - now;
 
-//remaining time until the end
-const remainingTime = setInterval(timePassing, 1000);
-console.log(remainingTime);
-
 //make time proceed
 function timePassing(){
     totalTime--;
+
 }
+
+//remaining time until the end
+const remainingTime = setInterval(timePassing, 1000);
+console.log(remainingTime);
 
 //When everything stops
 setTimeout(clearInterval, totalTime, remainingTime);
