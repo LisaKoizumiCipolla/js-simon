@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #6495ED;
+    width: 100vw;
+    height: 100vh;
+}
+
+.time-counter-wrapper{
+    margin: 0 auto;
+    background-color: #E6E6FA;
+    color: #008080;
+    width: 700px;
+    height: 400px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.time-counter{
+    width: 100%;
+}
+
+.time-card{
+    width: calc(100% / 4);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.counter-card{
+    font-size: 4rem;
+}
